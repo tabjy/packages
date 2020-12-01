@@ -4,14 +4,16 @@ an alias tag to [hello-world](https://hub.docker.com/_/hello-world) for explorin
 
 ## Pull Image
 
-from the container registry:
+From the container registry:
 
 ```sh
 docker pull ghcr.io/tabjy/hello-world:latest
 ```
 
-or from the package registry (authentication required):
+## Usages
+
+Print a hello-world message to standard output stream:
 
 ```sh
-docker pull docker.pkg.github.com/tabjy/packages/hello-world:latest
+docker run hello-world
 ```

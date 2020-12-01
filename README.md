@@ -4,20 +4,10 @@ my (semi-)private package registry
 
 ## Docker Images
 
-### [ghcr.io/tabjy/hello-world](https://github.com/users/tabjy/packages/container/package/hello-world)
+### [ghcr.io/tabjy/hello-world](./docker/hello-world)
 
 an alias tag to [hello-world](https://hub.docker.com/_/hello-world) for exploring GitHub package/container registry
 
-#### Pull Image
+### [ghcr.io/tabjy/http-static](.docker/http-static)
 
-from the container registry:
-
-```sh
-docker pull ghcr.io/tabjy/hello-world:latest
-```
-
-or from the package registry (authentication required):
-
-```sh
-docker pull docker.pkg.github.com/tabjy/packages/hello-world:latest
-```
+a basic HTTP server for serving static file based on [h5ai](https://github.com/lrsjng/h5ai)
