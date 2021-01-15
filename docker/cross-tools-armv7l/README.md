@@ -1,6 +1,6 @@
 # [ghcr.io/tabjy/cross-tools-armv7l](https://github.com/users/tabjy/packages/container/package/cross-tools-armv7l)
 
-ubuntu based cross-compile toolchains for ARM development (as having them available natively in ArchLinux is a whole level of pains)
+an ubuntu based cross-compile toolchains for ARM development (as having them available natively in ArchLinux is a whole level of pains)
 
 ## Pull Image
 

@@ -12,6 +12,6 @@ an alias tag to [hello-world](https://hub.docker.com/_/hello-world) for explorin
 
 a basic HTTP server for serving static file based on [h5ai](https://github.com/lrsjng/h5ai)
 
-### [ghcr.io/tabjy/cross-tools-armv7l](https://github.com/users/tabjy/packages/container/package/cross-tools-armv7l)
+### [ghcr.io/tabjy/cross-tools-armv7l](./docker/cross-tools-armv7l)
 
-ubuntu based cross-compile toolchains for ARM development (as having them available natively in ArchLinux is a whole level of pains)
+an ubuntu based cross-compile toolchains for ARM development (as having them available natively in ArchLinux is a whole level of pains)
