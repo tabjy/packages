@@ -1,0 +1,1 @@
+alias arm-linux-gnueabihf-gcc="docker run --rm -it -u $(id -u $USER):$(id -g $USER) -v $(pwd):/app ghcr.io/tabjy/cross-tools-armv7l arm-linux-gnueabihf-gcc"
