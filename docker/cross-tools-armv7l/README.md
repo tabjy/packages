@@ -14,5 +14,6 @@ docker pull ghcr.io/tabjy/cross-tools-armv7l:latest
 
 ```sh
 source <(curl https://raw.githubusercontent.com/tabjy/packages/master/docker/cross-tools-armv7l/alias.sh)
-arm-linux-gnueabihf-gcc src/hello.c -o build/armv7l/helloworld
+cd build && mkdir armv7l
+arm-linux-gnueabihf-gcc ../src/hello.c -o armv7l/helloworld
 ```
