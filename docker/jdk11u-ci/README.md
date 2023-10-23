@@ -15,5 +15,5 @@ podman pull ghcr.io/tabjy/jdk11u-ci:latest
 Mount the JDK 11 source to `/app` do whatever you want
 
 ```sh
-podman run -it --rm -v $PWD:/app:z localhost/jdk11u-ci:latest bash ./configure [...]
+podman run -it --rm -v $PWD:/app:z ghcr.io/tabjy/jdk11u-ci:latest bash ./configure [...]
 ```
